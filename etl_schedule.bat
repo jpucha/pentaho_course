@@ -1,0 +1,1 @@
+C:\work\data-integration\kitchen.bat /file:C:\temp\main_etl\main_job.kjb /level:Basic > C:\temp\logs\main.log

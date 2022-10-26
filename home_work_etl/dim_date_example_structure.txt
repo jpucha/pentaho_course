@@ -1,0 +1,19 @@
+http://www.ipcdesigns.com/dim_date/index.html#download
+
+CREATE TABLE dim_date_from_file
+(
+  date_key int NOT NULL
+, date_type varchar (20) NULL DEFAULT 'normal'
+, full_date datetime NULL
+, day_num_of_week int NULL
+, day_num_of_month int NULL
+, day_num_of_quarter int NULL
+, day_num_of_year int NULL
+, day_num_absolute int NULL
+, day_of_week_name varchar (10) NULL
+, day_of_week_abbreviation varchar (3) NULL
+, julian_day_num_of_year int NULL
+)
+;
+
+

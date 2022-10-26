@@ -1,0 +1,9 @@
+select 
+count(distinct dim_film.film_id) as film_count
+from
+dim_film
+
+INNER JOIN ext_film_features on 1=1
+and dim_film.film_id = ext_film_features.film_id
+
+where ext_film_features.film_feature in ('Commentaries','Behind the Scenes')
